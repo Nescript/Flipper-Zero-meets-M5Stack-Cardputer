@@ -84,6 +84,7 @@ jobs:
       - name: Build
         run: |
           source ~/esp/esp-idf/export.sh
+          python -m pip install --quiet pillow
           chmod +x ./build.sh
           ./build.sh --board ${{ matrix.board.script_key }} --build-only
 
