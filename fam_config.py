@@ -88,7 +88,6 @@ APPS = [
     "proto_pirate",
     "recorder",
     "snake20",
-    "tagtinker",
     "tamagotchi_p1",
     "tetris",
     "texas_holdem",
